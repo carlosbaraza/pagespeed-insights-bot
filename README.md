@@ -18,3 +18,11 @@ then run the image setting the bot token as an env variable:
 ```
 docker run -e token=randomtoken12345 carlosbaraza/pagespeed-insights-bot:latest
 ```
+
+# Roadmap
+- [x] Direct message + URL
+- [x] Mention bot + URL
+- [x] Simple integration with Slack
+- [ ] Cron job monitoring score and warning when threshold is met
+- [ ] Ability to configure bot
+- [ ] Other messaging applications
