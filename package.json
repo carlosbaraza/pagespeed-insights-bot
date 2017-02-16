@@ -1,0 +1,24 @@
+{
+  "name": "pagespeed-insights-bot",
+  "version": "1.0.0",
+  "description": "PageSpeed Insights score notifier bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosbaraza/pagespeed-insights-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosbaraza/pagespeed-insights-bot/issues"
+  },
+  "homepage": "https://github.com/carlosbaraza/pagespeed-insights-bot#readme",
+  "dependencies": {
+    "botkit": "^0.5.0",
+    "lodash.frompairs": "^4.0.1",
+    "psi": "^3.0.0"
+  }
+}
